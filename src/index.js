@@ -1,13 +1,17 @@
 import React from 'react';
+import App from './App';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import "./index.css";
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.css'
+import Counters from './Components/counters';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+ 
   <React.StrictMode>
-    <App />
+    <App/>
+    <Counters/>
   </React.StrictMode>
 );
 
